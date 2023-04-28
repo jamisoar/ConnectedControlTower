@@ -1,0 +1,178 @@
+body{
+    background-color: #f9d40a
+}
+
+
+.coor1{
+    text-align: center;
+    font-size: 50px;
+    color: #000000
+    
+    
+}
+
+.lor2{
+    text-align: center;
+    font-size: 30px;
+    color: #000000;
+}
+
+.lor4{
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+}
+
+.lor5{
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+}
+
+.lor3{
+
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+    
+}
+
+h6{
+    font-size: 50px;
+    color: #000000
+}
+
+h2:after, .box-article .article figcaption { 
+
+    position: absolute; 
+
+}
+
+
+.box-article { 
+
+    display: flex; 
+
+}
+
+
+.box-article {
+
+  flex-flow: row wrap;
+
+}
+
+.box-article img {
+  
+  width: 100%;
+  min-height: 100%;
+
+}
+
+
+.box-article .article {
+  
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  height: 200px;
+  border-radius: 6px;
+  margin: auto;
+
+}
+
+.box-article .article img {
+  
+  width: 100%;
+  min-height: 100%;
+  transform: scale(1.05);
+  transition: 0.2s;
+
+}
+
+.box-article .article figcaption {
+  
+  font-size: 1em;
+  text-shadow: 0 1px 0 rgba(51,51,51,0.3);
+  color: #fff;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.55);
+  opacity: 0;
+  transform: scale(1.15);
+  transition: 0.2s;
+
+}
+
+.box-article .article figcaption h3 {
+
+    color: #ffcb00;
+    font-size: 1.3em;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-family: 'open_sansbold';
+
+}
+
+.box-article .article:hover img,
+.box-article .article:focus img,
+.box-article .article:active img {
+
+  filter: blur(5px);
+  transform: scale(1);
+
+}
+
+.box-article .article:hover figcaption,
+.box-article .article:focus figcaption,
+.box-article .article:active figcaption {
+
+  opacity: 1;
+  transform: none;
+
+}
+
+
+.lor3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: #000000;
+    
+}
+
+
+.zoom {
+	overflow: hidden;
+}
+
+.zoom img {
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.zoom:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.text-item {
+	position: absolute;
+	left: 5%;
+	right: 5%;
+	bottom: 20px;
+	z-index: 10;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #ffffff;
+	text-align: center;
+	font-weight: 700;
+	text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+}
+
